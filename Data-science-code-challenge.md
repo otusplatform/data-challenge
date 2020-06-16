@@ -1,5 +1,4 @@
-# OTUS Data Science Intern Challenge
-
+# OTUS Data Science Take Home
 **Machine Learning with Student Performance**
 
 **Your assignment** 

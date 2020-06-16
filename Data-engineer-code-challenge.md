@@ -24,21 +24,6 @@ Publish a repo on Github that i can clone and run on my local machine. Your repo
 
 
 ## Written
-**New Systems** 
- We are building a brand new query engine with a brand new backend and reusing a frontend and have 6 months to deliver query with a team of 4 people plus you.  2 sr platform ´engineers (same as this role) and 2 jr full stack engineers.
-
-**The high level requirements are**:
-
-* the new system should pull data from the original monolith system (PHP/Node & Angular & RDS mysql)  at near real time (5 seconds delay is OK ) - this monolith is the source system and we want the new query system to treat its datastore as ephemeral    
-* the new UI will be built on top of the older angular pages and components and hence be coupled to other teams who use the same frontend
-* the data layer and APIs will be built brand new and need to be able to serve up the data for 300k students in 1-2 seconds across a time range of 3 years - data includes grades, attendance, standardized test reports, Otus Assessments, gender, ‘race’, subjects/class, school district, and teacher.  
-* the infra for the new system is in place - EKS/K8s, Codefresh, AWS, Terraform, Prometheus, Sumo, Grafana, PagerDuty.  
-* The old system and the new system are both on AWS.  They can be in the same or different AWS accounts.
-* the team is small 4 people and we optimize for speed and delivery - we use managed services wherever possible.
-* SLOs need to be defined and adhered to for the new service(s).
-
-Whats the high level logical architecture look like for this? What services and tech would you select for this system?  How do you rationalize those decisions? Summarize your approach in a 1-2 page document.
-
 **Ramping up**
 Explain what an ideal 30/60/90 day plan looks like for you as you start a new role with Otus. This is important since we are small and you will need to self-direct most days.
 
